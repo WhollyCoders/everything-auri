@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Contact Us Form</title>
+  <style media="screen">
+  body{background-color: #333;}
+  .container{width: 1180px; height: 480px; background-color: #fff; margin: 0px auto;}
+    .contactUs{padding-top: 30px;}
+    .contact-left, .contact-right{width: 480px;}
+    ul li{list-style: none;}
+    .contact-left{padding-left: 110px; float: left;}
+    .contact-left P{font-family: arial, sans-serif;}
+    .contact-left ul{ font-family: 'century gothic', arial, sans-serif; font-size: 24px;}
+    .contact-right{margin-right: 110px; float: right; }
+    input{width: 85%; height: 36px; padding: 5px; font-size: 18px; float: right; margin-bottom: 15px;}
+    #input-comment{height: 30px; padding-bottom: 88px;}
+    #input-submit{width: 150px; height: 40px; background-color: #000; color: #fff;}
+    .submit-btn-area{width:480px; height: auto; min-height: 40px;}
+    .required-text{margin-left: 65px; float: left;}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="contactUs">
+      <div class="contact-left">
+        <h1>Get In Touch</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <h3>Contact Us</h3>
+          <ul>
+            <li>Rochelle T. Parks</li>
+            <li><strong>c/o Roctrepar, Inc</strong></li>
+            <li>6368 Coventry Way, #408</li>
+            <li>Clinton MD 20735</li>
+            <li>(240) 292-9327</li>
+          </ul>
+        </div>
+        <div class="contact-right">
+          <form class="form-contactUs" action="" method="post">
+            <p>
+              <input type="text" name="firstname" placeholder="*First Name">
+            </p>
+            <p>
+              <input type="text" name="lastname" placeholder="*Last Name">
+            </p>
+            <p>
+              <input type="email" name="email" placeholder="*Email Address">
+            </p>
+            <p>
+              <input id="input-comment" type="text" name="comment" placeholder="Comments">
+            </p>
+            <p>
+              <div class="submit-btn-area">
+                <div class="required-text">
+                  <span><em>* Required Field</em></span>
+                </div>
+                <input id="input-submit" type="submit" name="send_message" value="Submit">
+              </div>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
